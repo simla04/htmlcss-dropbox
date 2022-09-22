@@ -5,7 +5,91 @@
     padding: 0;
 }
 /* ___________DEBUG RULES_________________ */
-
+header{
+    background-color: fuchsia;
+}
+.nav{
+    background-color: rosybrown;
+}
 
 
 /* _________PROPERTY CLASS___________________ */
+.flex{
+    display: flex;
+}
+.flex-e{
+    
+}
+.d-inline{
+    display: inline;
+}
+.jc-s-between{
+    justify-content: space-between;
+}
+.d-inline-b{
+    display: inline-block;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+
+
+/* __________TAG__________________________ */
+header{
+
+}
+nav{
+    width: 100%;    
+}
+h1{
+    font-size: 7rem;
+}
+/* _________CLASS TAG______________________ */
+.container-100{
+    width: 100%;
+}
+.container-80{
+    width: 80%;
+    margin: auto;
+}
+.container-70{
+    width: 70%;
+    margin: auto;
+}
+.col-3{
+    width: calc(100%/3);
+}
+.left-menu{
+
+}
+.right-menu{
+
+}
+.left-menu span, .right-menu span{
+    padding: 18px;
+    line-height: 63px;
+    display: inline-block;
+}
+.right-menu button{
+    padding: 12px;
+    color: white;
+    background: blue;
+    margin-right: 15px;
+}
+.text-business{
+    width: 30%;
+}
+.business img-jumbo{
+    width: 68%;
+}
+.business{
+
+}
+.jumbotrone{
+    margin: auto;
+    flex-direction: column;
+}
+
