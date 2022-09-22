@@ -20,7 +20,8 @@ header{
 .flex{
     display: flex;
 }
-.flex-e{
+.flex-evenly{
+    justify-content: space-evenly;
     
 }
 .d-inline{
@@ -63,10 +64,10 @@ h1{
     margin: auto;
 }
 .col-3{
-    width: calc(100%/3);
+    width: calc(100%/3)-10px;
+    border: 2px red solid;
 }
 .left-menu{
-
 }
 .right-menu{
 
@@ -77,13 +78,18 @@ h1{
     display: inline-block;
 }
 .right-menu button{
-    padding: 12px;
-    color: white;
-    background: blue;
     margin-right: 15px;
+}
+.btn{
+    padding: 12px;
+}
+.btn-blue{
+    background-color: blue;
+    color: white;
 }
 .text-business{
     width: 40%;
+    font-size: 4rem;
 }
 .text-business p, .text-business button{
     margin-bottom: 113px;
@@ -93,7 +99,7 @@ h1{
     width: 50%;
 }
 .img-jumbo>img{
-    width: 120%;
+    width: 100%;
 }
 .business{
     margin-top: 74px;
@@ -101,5 +107,62 @@ h1{
 .jumbotrone{
     margin: auto;
     flex-direction: column;
+}
+.jumbo{
+    background-color: rgba(180, 208, 231, 1);
+}
+/* ____SEZIONE PLAN BUSINESS____________ */
+.business-plan{
+    margin-top: 11%;
+    background-color: yellow;
+}
+.title-h2>h2{
+    font-size: 4rem;
+}
+.description_plan>h3{
+    font-size: 2.4rem;
+}
+.description-plan button{
+    margin-top: 2rem;
+    
+}
+
+.select{
+    font-size: 1.4rem;
+    padding-top: 5rem;
+    width: 30%; 
+}
+.plan-type{
+    text-align: center;
+    font-size: 1.5rem;
+    border: black 1px solid;
+    padding: 20px 40px;
+}
+.users-type{
+    margin-top: 5rem;
+}
+.description-plan ul{
+    margin-top: 2.6rem;
+}
+ul li{
+    list-style: none;
+    line-height: 5rem;
+    font-size: 1.5rem;
+}
+.description-plan{
+    margin-left: 2rem;
+}
+.description-plan h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.description-plan p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.periodo{
+    color: lightslategrey;
 }
 
