@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: sans-serif;
+}
 /* ___________DEBUG RULES_________________ */
 header{
     background-color: fuchsia;
@@ -35,8 +38,6 @@ header{
 .p-absolute{
     position: absolute;
 }
-
-
 /* __________TAG__________________________ */
 header{
 
@@ -46,6 +47,8 @@ nav{
 }
 h1{
     font-size: 7rem;
+    margin-top: 5rem;
+    font-weight: bold;
 }
 /* _________CLASS TAG______________________ */
 .container-100{
@@ -80,13 +83,20 @@ h1{
     margin-right: 15px;
 }
 .text-business{
-    width: 30%;
+    width: 40%;
+}
+.text-business p, .text-business button{
+    margin-bottom: 113px;
+    font-size: 1.5rem;
 }
 .business img-jumbo{
-    width: 68%;
+    width: 50%;
+}
+.img-jumbo>img{
+    width: 120%;
 }
 .business{
-
+    margin-top: 74px;
 }
 .jumbotrone{
     margin: auto;
