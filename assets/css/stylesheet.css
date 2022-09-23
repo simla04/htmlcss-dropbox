@@ -53,6 +53,9 @@ h1{
     margin-top: 5rem;
     font-weight: bold;
 }
+section{
+    margin-top: 6rem;
+}
 /* _________CLASS TAG______________________ */
 .container-100{
     width: 100%;
@@ -197,9 +200,32 @@ ul li{
     border: 2px solid;
     margin-top: 57px
 }
+.find-partner .container-70{
+    align-items: center;
+}
 .text-team-b{
     width: 70%;
 }
 .description-plan .soluzioni{
     font-weight: normal;
+}
+.find-partner .img{
+    background-image: url(../img/dropbox-risorse/img/partner.png);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 48rem;
+    /* background-color: orange; */
+    background-repeat: no-repeat;
+}
+.find-partner img{
+    width: 100%;
+}
+.find-partner .text{
+    width: 30%;
+    font-size: 2rem;
+    margin: 6rem 0rem 3rem 0rem;
+}
+.find-partner p{
+    margin-top: 2rem;
 }
