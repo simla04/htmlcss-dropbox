@@ -63,6 +63,10 @@ h1{
     width: 70%;
     margin: auto;
 }
+.container-60{
+    width: 60%;
+    margin: auto;
+}
 .col-3{
     width: calc(100%/3)-10px;
     border: 2px red solid;
@@ -81,7 +85,8 @@ h1{
     margin-right: 15px;
 }
 .btn{
-    padding: 12px;
+    padding: 20px 65px;
+    font-size: 1.5rem;
 }
 .btn-blue{
     background-color: blue;
@@ -113,7 +118,7 @@ h1{
 }
 /* ____SEZIONE PLAN BUSINESS____________ */
 .business-plan{
-    margin-top: 11%;
+    margin-top: 6%;
     background-color: yellow;
 }
 .title-h2>h2{
@@ -123,8 +128,7 @@ h1{
     font-size: 2.4rem;
 }
 .description-plan button{
-    margin-top: 2rem;
-    
+    margin-top: 2rem;  
 }
 
 .select{
