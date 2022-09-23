@@ -21,8 +21,10 @@ header{
     display: flex;
 }
 .flex-evenly{
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
+}
+.f-wrap{
+    flex-wrap: wrap;
 }
 .d-inline{
     display: inline;
@@ -68,9 +70,16 @@ h1{
     margin: auto;
 }
 .col-3{
-    width: calc(100%/3)-10px;
+    width: calc(100% /3);
     border: 2px red solid;
 }
+.col-100{
+    width: 100%;
+}
+.row{
+    width: 100%;
+}
+
 .left-menu{
 }
 .right-menu{
@@ -87,9 +96,10 @@ h1{
 .btn{
     padding: 20px 65px;
     font-size: 1.5rem;
+    border-radius: 30px;
 }
 .btn-blue{
-    background-color: blue;
+    background-color: rgb(56, 165, 202);
     color: white;
 }
 .text-business{
@@ -119,7 +129,7 @@ h1{
 /* ____SEZIONE PLAN BUSINESS____________ */
 .business-plan{
     margin-top: 6%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .title-h2>h2{
     font-size: 4rem;
@@ -153,8 +163,10 @@ ul li{
     line-height: 5rem;
     font-size: 1.5rem;
 }
+
 .description-plan{
     margin-left: 2rem;
+    padding: 0px 51px;
 }
 .description-plan h3{
     margin-top: 2rem;
@@ -169,4 +181,25 @@ ul li{
 .periodo{
     color: lightslategrey;
 }
+.tick-point{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: red;
+}
+.users-type .col-3{
+    height: 83rem;
+    border: 2px red solid;
+    flex-basis: 31%;
+}
 
+.users-type .col-100{
+    border: 2px  solid;
+    border: 2px solid;
+    margin-top: 57px
+}
+.text-team-b{
+    width: 70%;
+}
+.description-plan .soluzioni{
+    font-weight: normal;
+}
