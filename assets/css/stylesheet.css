@@ -16,7 +16,7 @@ header{
 }
 
 /* ______RESET STYLE RULES___________________ */
-/* .bg-lightgray{
+.bg-lightgray{
     background-color: lightgray;
 }
 .bg-lightcoral{
@@ -34,7 +34,7 @@ background-color: lightseagreen;
 .bg-darkkhaki{
     background-color: darkkhaki;
 }
- */
+
 
 /* _________PROPERTY CLASS___________________ */
 .flex{
@@ -347,6 +347,7 @@ ul li{
     padding-top: 5rem;
 }
 /* _SPONSOR AGENCY______ */
+
 
 .sponsor-agency h2{
     font-size: 7rem;
