@@ -6,6 +6,7 @@
 }
 body{
     font-family: sans-serif;
+    font-size: 1.8rem;
 }
 /* ___________DEBUG RULES_________________ */
 header{
@@ -16,7 +17,7 @@ header{
 }
 
 /* ______RESET STYLE RULES___________________ */
-.bg-lightgray{
+/* .bg-lightgray{
     background-color: lightgray;
 }
 .bg-lightcoral{
@@ -33,7 +34,7 @@ background-color: lightseagreen;
 }
 .bg-darkkhaki{
     background-color: darkkhaki;
-}
+} */
 .bg-black{
     background-color: black;
     color: white;
@@ -73,15 +74,16 @@ background-color: lightseagreen;
 .square-sm{
     width: 50%;
     height: 50%;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     border-style: inset;
 }
 .square-sm img{
-    width: 40%;
-    /* display: block; */
-  width: 52%;
-    margin-top: 40%;
-    margin-left: 25%;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
 }
 
 
@@ -122,9 +124,9 @@ nav{
     width: 100%;    
 }
 h1{
-    font-size: 7rem;
+    /* font-size: 7rem; */
     margin-top: 5rem;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 section{
     margin-top: 7rem;
@@ -178,7 +180,7 @@ section{
 }
 .btn{
     padding: 20px 65px;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     border-radius: 30px;
 }
 .btn-blue{
@@ -187,11 +189,11 @@ section{
 }
 .text-business{
     width: 40%;
-    font-size: 4rem;
+    /* font-size: 4rem; */
 }
 .text-business p, .text-business button{
     margin-bottom: 113px;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 .business img-jumbo{
     width: 50%;
@@ -215,23 +217,23 @@ section{
     /* background-color: yellow; */
 }
 .title-h2>h2{
-    font-size: 4rem;
+    /* font-size:4rem; */
 }
 .description_plan>h3{
-    font-size: 2.4rem;
+    /* font-size: 2.4rem; */
 }
 .description-plan button{
     margin-top: 2rem;  
 }
 
 .select{
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
     padding-top: 5rem;
     width: 30%; 
 }
 .plan-type{
     text-align: center;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     border: black 1px solid;
     padding: 20px 40px;
 }
@@ -244,7 +246,7 @@ section{
 ul li{
     list-style: none;
     /* line-height: 5rem; */
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     text-indent: -20px;
     padding-left: 1.2;
     margin-top: 2rem ;
@@ -256,20 +258,20 @@ ul li{
 }
 .description-plan h3{
     margin-top: 2rem;
-    font-size: 2rem;
-    font-weight: bold;
+    /* font-size: 2rem;
+    font-weight: bold; */
 }
 .description-plan p{
-    font-size: 1.4rem;
+    /* font-size: 1.4rem;
     font-weight: bold;
-    line-height: 3rem;
+    line-height: 3rem; */
 }
 .periodo{
     color: lightslategrey;
 }
 .tick-point{
-    font-size: 1.5rem;
-    font-weight: bold;
+    /* font-size: 1.5rem;
+    font-weight: bold; */
     background: red;
 }
 .users-type .col-3{
@@ -290,7 +292,7 @@ ul li{
     width: 70%;
 }
 .description-plan .soluzioni{
-    font-weight: normal;
+    /* font-weight: normal; */
 }
 .find-partner .img{
     /* background-image: url(../img/dropbox-risorse/img/partner.png);
@@ -306,7 +308,7 @@ ul li{
 }
 .find-partner .text{
     width: 30%;
-    font-size: 4rem;
+    /* font-size: 4rem; */
     margin: 6rem 0rem 3rem 0rem;
 }
 .find-partner p{
@@ -327,12 +329,12 @@ ul li{
     background-color: pink;
 }
 .dropbox-business h2{
-    font-size: 7rem;
+    /* font-size: 7rem; */
     padding: 10rem 3rem;
 }
 .dropbox-business a{
     padding: 0rem 4rem;
-    font-size: 3rem;
+    /* font-size: 3rem; */
 }
 .dropbox-business img{
     width: 100%;
@@ -346,7 +348,7 @@ ul li{
     border: 2px red solid;
     flex-basis: 29%;
     margin-top: 4rem;
-    font-size: -webkit-xxx-large;
+    /* font-size: -webkit-xxx-large; */
 }
 .dropbox-business p{
     margin-top: 2.5rem;
@@ -359,6 +361,6 @@ ul li{
 
 
 .sponsor-agency h2{
-    font-size: 7rem;
+    /* font-size: 7rem; */
     padding: 10rem 3rem;
 }
