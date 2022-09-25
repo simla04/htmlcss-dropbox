@@ -34,6 +34,10 @@ background-color: lightseagreen;
 .bg-darkkhaki{
     background-color: darkkhaki;
 }
+.bg-black{
+    background-color: black;
+    color: white;
+}
 
 
 /* _________PROPERTY CLASS___________________ */
@@ -147,6 +151,11 @@ section{
     width: calc(100% / 3);
     border: 2px red solid;
 }
+
+.col-5{
+    width: calc(100%/5);
+}
+
 .col-100{
     width: 100%;
 }
