@@ -3,20 +3,24 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 1.5rem
 }
 body{
     font-family: sans-serif;
-    font-size: 1.8rem;
+
 }
 /* ___________DEBUG RULES_________________ */
 header{
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
+    margin: 2rem;
 }
 .nav{
     background-color: rosybrown;
+    width: 100%;
 }
 
 /* ______RESET STYLE RULES___________________ */
+
 /* .bg-lightgray{
     background-color: lightgray;
 }
@@ -39,7 +43,6 @@ background-color: lightseagreen;
     background-color: black;
     color: white;
 }
-
 
 /* _________PROPERTY CLASS___________________ */
 .flex{
@@ -85,8 +88,6 @@ background-color: lightseagreen;
     transform: translate(-50%, -50%);
     filter: invert();
 }
-
-
 /* _______background color________________ */
 .designit{
     background-color:rgba(162, 211, 155, 1) ;
@@ -113,15 +114,9 @@ background-color: lightseagreen;
     background-color:rgba(255, 216, 48, 1);
 }
 
-
-
-
 /* __________TAG__________________________ */
-header{
-
-}
 nav{
-    width: 100%;    
+   
 }
 h1{
     /* font-size: 7rem; */
@@ -131,7 +126,6 @@ h1{
 section{
     margin-top: 7rem;
     width: 100%;
-
 }
 /* _________CLASS TAG______________________ */
 .container-100{
@@ -151,13 +145,11 @@ section{
 }
 .col-3{
     width: calc(100% / 3);
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
-
 .col-5{
     width: calc(100%/5);
 }
-
 .col-100{
     width: 100%;
 }
@@ -165,10 +157,15 @@ section{
     width: 100%;
 }
 
-.left-menu{
+
+.jumbo{
+    padding-top: 5rem;
+}
+.left-menu img{
+    width: 10rem;
+    vertical-align: middle; 
 }
 .right-menu{
-
 }
 .left-menu span, .right-menu span{
     padding: 18px;
@@ -184,7 +181,7 @@ section{
     border-radius: 30px;
 }
 .btn-blue{
-    background-color: rgb(56, 165, 202);
+    background-color: rgba(0, 97, 255, 1);
     color: white;
 }
 .text-business{
@@ -275,9 +272,9 @@ ul li{
     background: red;
 }
 .users-type .col-3{
-    height: 83rem;
-    border: 2px red solid;
+    border: 2px #252020 solid;
     flex-basis: 31%;
+    padding-bottom: 5rem;
 }
 
 .users-type .col-100{
@@ -300,7 +297,7 @@ ul li{
     background-position: center;*/
     width: 60%;
     /* height: 60rem; */
-    background-color: orange;
+    /* background-color: orange; */
     /* background-repeat: no-repeat; */ 
 }
 .find-partner img{
@@ -317,16 +314,16 @@ ul li{
 /* _BUSINESS DROPBOX__________ */
 
 .dropbox-business{
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 .dropbox-business .container-70{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 .dropbox-business div{ 
    
 } 
 .dropbox-business .text{
-    background-color: pink;
+    /* background-color: pink; */
 }
 .dropbox-business h2{
     /* font-size: 7rem; */
@@ -342,10 +339,10 @@ ul li{
 .dropbox-business .row{
     width: 100%;
     margin-top: 2rem;
-    border: #f3f308 79px dashed;
+    /* border: #f3f308 79px dashed; */
 }
 .dropbox-business .col-3{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     flex-basis: 29%;
     margin-top: 4rem;
     /* font-size: -webkit-xxx-large; */
