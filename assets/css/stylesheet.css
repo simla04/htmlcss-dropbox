@@ -15,6 +15,26 @@ header{
     background-color: rosybrown;
 }
 
+/* ______RESET STYLE RULES___________________ */
+/* .bg-lightgray{
+    background-color: lightgray;
+}
+.bg-lightcoral{
+    background-color: lightcoral;
+}
+.bg-lightseagreen{
+background-color: lightseagreen;
+}
+.bg-limegreen{
+    background-color: limegreen;
+}
+.bg-fuchsia{
+    background-color: fuchsia;
+}
+.bg-darkkhaki{
+    background-color: darkkhaki;
+}
+ */
 
 /* _________PROPERTY CLASS___________________ */
 .flex{
@@ -41,6 +61,55 @@ header{
 .p-absolute{
     position: absolute;
 }
+/* _____FORM________________________________ */
+.square{
+    width:30%;
+    height: calc(100vw/3);
+}
+.square-sm{
+    width: 50%;
+    height: 50%;
+    font-size: 3rem;
+    border-style: inset;
+}
+.square-sm img{
+    width: 40%;
+    /* display: block; */
+  width: 52%;
+    margin-top: 40%;
+    margin-left: 25%;
+}
+
+
+/* _______background color________________ */
+.designit{
+    background-color:rgba(162, 211, 155, 1) ;
+}
+.asu{
+    background-color: rgba(97, 8, 43, 1);
+}
+.u-florida{
+    background-color:rgba(0, 147, 206, 1) ;
+}
+.topps{
+    background-color:rgba(255, 28, 28, 1) ;
+}
+.wbr{
+    background-color: rgba(213, 0, 31, 1);
+}
+.hearst{
+    background-color:rgba(180, 208, 231, 1);
+}
+.lonely-p{
+    background-color:rgba(13, 36, 129, 1);
+}
+.c-channel{
+    background-color:rgba(255, 216, 48, 1);
+}
+
+
+
+
 /* __________TAG__________________________ */
 header{
 
@@ -54,7 +123,9 @@ h1{
     font-weight: bold;
 }
 section{
-    margin-top: 6rem;
+    margin-top: 7rem;
+    width: 100%;
+
 }
 /* _________CLASS TAG______________________ */
 .container-100{
@@ -73,7 +144,7 @@ section{
     margin: auto;
 }
 .col-3{
-    width: calc(100% /3);
+    width: calc(100% / 3);
     border: 2px red solid;
 }
 .col-100{
@@ -213,22 +284,71 @@ ul li{
     font-weight: normal;
 }
 .find-partner .img{
-    background-image: url(../img/dropbox-risorse/img/partner.png);
+    /* background-image: url(../img/dropbox-risorse/img/partner.png);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     width: 60%;
-    height: 48rem;
-    /* background-color: orange; */
-    background-repeat: no-repeat;
+    /* height: 60rem; */
+    background-color: orange;
+    /* background-repeat: no-repeat; */ 
 }
 .find-partner img{
     width: 100%;
 }
 .find-partner .text{
     width: 30%;
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 6rem 0rem 3rem 0rem;
 }
 .find-partner p{
     margin-top: 2rem;
+}
+/* _BUSINESS DROPBOX__________ */
+
+.dropbox-business{
+    background-color: lightblue;
+}
+.dropbox-business .container-70{
+    background-color: lightgreen;
+}
+.dropbox-business div{ 
+   
+} 
+.dropbox-business .text{
+    background-color: pink;
+}
+.dropbox-business h2{
+    font-size: 7rem;
+    padding: 10rem 3rem;
+}
+.dropbox-business a{
+    padding: 0rem 4rem;
+    font-size: 3rem;
+}
+.dropbox-business img{
+    width: 100%;
+}
+.dropbox-business .row{
+    width: 100%;
+    margin-top: 2rem;
+    border: #f3f308 79px dashed;
+}
+.dropbox-business .col-3{
+    border: 2px red solid;
+    flex-basis: 29%;
+    margin-top: 4rem;
+    font-size: -webkit-xxx-large;
+}
+.dropbox-business p{
+    margin-top: 2.5rem;
+}
+.dropbox-business h2{
+    padding-bottom: 23rem;
+    padding-top: 5rem;
+}
+/* _SPONSOR AGENCY______ */
+
+.sponsor-agency h2{
+    font-size: 7rem;
+    padding: 10rem 3rem;
 }
