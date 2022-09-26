@@ -152,7 +152,6 @@ section{
 .row{
     width: 100%;
 }
-
 /* _____HEADER: NAV->: LEFT-MENU E RIGHT-MENU________________________ */
 header{
     /* margin: 2rem; */
@@ -169,7 +168,6 @@ header{
 }
 .right-menu{
 }
-
 nav li{
     list-style: none;
     margin: 0rem 2rem;
@@ -184,7 +182,6 @@ header a{
     border-bottom: 13px blue dashed;
     padding: 5rem 1rem;
 }
-
 .right-menu button{
     margin-right: 15px;
 }
@@ -196,27 +193,7 @@ header a{
     line-height: 63px;
     display: inline-block;
 } */
-
-/* ______SECTION: JUMBO________________________________________ */
-.jumbo{
-    padding-top: 5rem;
-}
-.jumbo h1{
-    font-size: 7rem;
-    margin-top: 5rem;
-}
-
-/* ______MAIN________________________________________ */
-/* ______________________________________________ */
-/* ______________________________________________ */
-/* ______________________________________________ */
-/* ______________________________________________ */
-
-/* ______________________________________________ */
-
-
-
-.
+/* ____selettori___________________ */
 .btn{
     padding: 20px 0px;
     /* font-size: 1.5rem; */
@@ -228,22 +205,28 @@ header a{
     background-color: rgba(0, 97, 255, 1);
     color: white;
 }
+/* ______SECTION: JUMBO______________________________ */
+.jumbo{
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+.jumbo h1{
+    font-size: 7rem;
+    margin-top: 5rem;
+}
 .text-business{
     width: 40%;
     /* font-size: 4rem; */
+}
+.business img-jumbo{
+    width: 50%;
 }
 .text-business p, .text-business button{
     margin-bottom: 113px;
     /* font-size: 1.5rem; */
 }
-.business img-jumbo{
-    width: 50%;
-}
 .img-jumbo>img{
     width: 100%;
-}
-.business{
-    margin-top: 74px;
 }
 .jumbotrone{
     margin: auto;
@@ -252,7 +235,12 @@ header a{
 .jumbo{
     background-color: rgba(180, 208, 231, 1);
 }
-/* ____SEZIONE PLAN BUSINESS____________ */
+/* ______MAIN________________________________________ */
+
+/* ____SEZIONE BUSINESS-PLAN ____________ */
+.business{
+    margin-top: 74px;
+}
 .business-plan{
     margin-top: 6%;
     /* background-color: yellow; */
@@ -266,7 +254,6 @@ header a{
 .description-plan button{
     margin-top: 2rem;  
 }
-
 .select{
     /* font-size: 1.4rem; */
     padding-top: 5rem;
@@ -293,7 +280,6 @@ ul li{
     padding-left: 1.2;
     margin-top: 2rem;
 }
-
 .description-plan{
     margin-left: 2rem;
     padding: 0px 51px;
@@ -320,12 +306,12 @@ ul li{
     flex-basis: 31%;
     padding-bottom: 5rem;
 }
-
 .users-type .col-100{
     border: 2px  solid;
     border: 2px solid;
     margin-top: 57px
 }
+/* _______FIND-PARTNER_______________________________________ */
 .find-partner .container-70{
     align-items: center;
 }
@@ -355,8 +341,7 @@ ul li{
 .find-partner p{
     margin-top: 2rem;
 }
-
-/* ____________________BUSINESS DROPBOX__________ */
+/* _________DROPBOX-BUSINESS__________ */
 .dropbox-business{
     /* background-color: lightblue; */
 }
@@ -396,12 +381,25 @@ ul li{
     padding-top: 5rem;
 }
 /* _SPONSOR AGENCY______ */
-
-
 .sponsor-agency h2{
     /* font-size: 7rem; */
     padding: 10rem 3rem;
 }
+
+/* ____SEZIONE QUESTIONS-ANSWEARS_____________ */
+
+
+
+/* ____FOOTER____________________ */
+
+
+
+
+
+
+
+
+
 
 
 
