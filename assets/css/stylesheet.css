@@ -3,10 +3,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 /* ____________________________DEBUG RULES_________________ */
@@ -50,6 +50,9 @@ background-color: lightseagreen;
 .flex-evenly{
     justify-content: space-evenly;   
 }
+.a-center{
+    align-items: center;
+}
 .f-wrap{
     flex-wrap: wrap;
 }
@@ -77,7 +80,7 @@ background-color: lightseagreen;
     width: 50%;
     height: 50%;
     /* font-size: 3rem; */
-    border-style: inset;
+    /* border-style: inset; */
 }
 .square-sm img{
     width: 50%;
@@ -164,13 +167,10 @@ header{
 .nav{
     background-color: rosybrown;
     width: 100%;
-   
 }
 .left-menu img{
     width: 10rem;
     vertical-align: middle; 
-}
-.right-menu{
 }
 nav li{
     list-style: none;
@@ -183,15 +183,13 @@ nav .flex{
 }
 header a{
     text-decoration: none;
-    border-bottom: 13px blue dashed;
+    /* border-bottom: 13px blue dashed; */
     padding: 5rem 1rem;
+    color: black;
 }
 .right-menu button{
     margin-right: 15px;
-   
 }
-
-
 
 .jumbo {
     margin-top: 0rem;
@@ -219,6 +217,23 @@ header a{
     background-color: rgba(0, 97, 255, 1);
     color: white;
 }
+
+.vendite{
+    padding: 39px 87px;
+    /* font-size: 1.5rem; */
+    border-radius: 5px;
+    border: none;
+}
+.btn-wt{
+    background-color: white;
+    color: black;
+    border: 2px black solid;
+}
+.sponsor-agency button{
+    padding: 33px 58px;
+    border: none;
+}
+
 /* ______SECTION: JUMBO______________________________ */
 .jumbo{
     padding-top: 5rem;
@@ -293,37 +308,40 @@ header a{
     margin-top: 5rem;
 }
 .description-plan ul{
-    margin-top: 2.6rem;
+    margin-top: 6.6rem;
 }
 ul li{
     list-style: none;
     /* line-height: 5rem; */
     /* font-size: 1.5rem; */
-    text-indent: -29px;
+    text-indent: -45px;
     padding-left: 1.2;
     margin-top: 2rem;
 }
 .description-plan{
-    margin-left: 2rem;
-    padding: 0px 51px;
+    margin-left: 0;
+    padding: 139px 156px;
 }
 .description-plan h3{
     margin-top: 2rem;
     font-size: 2.4rem;
 }
 .description-plan p{
-    /* font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 3rem; */
+    margin-top: 56px;
+    line-height: 3rem;
 }
 .periodo{
     color: lightslategrey;
+    margin-top: 2rem;
+    font-weight: 200;
 }
 .tick-point{
     /* font-size: 1.5rem;
     font-weight: bold; */
     /* background: red; */
+    font-weight: bold;
 }
+
 .tick-point a{
     background-color: navaj;
 }
@@ -331,26 +349,40 @@ p a{
     background-color: white;
     color: rgba(0, 97, 255, 1);
 }
+.col-100 .ufficio{
+    font-weight: bold;
+}
+.periodo{
+    margin-top: 2rem;
+}
+.breakline{
+    background-color: rgba(228, 228, 229, 1);
+    width: 40%;
+    height: 8px;
+    margin-top: 5rem;
+}
+
 
 .users-type .col-3{
     border: 1px rgba(228, 228, 229, 1) solid;
     flex-basis: 31%;
     padding-bottom: 5rem;
 }
-.users-type .col-100{
-    border: 2px  solid;
+.users-type .col-100 {
     border: 2px solid;
-    margin-top: 57px
+    border: 2px solid;
+    margin-top: 134px;
+    border: 1px rgba(228, 228, 229, 1) solid;
 }
 /* _______FIND-PARTNER_______________________________________ */
 .find-partner .container-70{
-    align-items: center;
+    align-items: flex-start;
 }
 .text-team-b{
-    width: 70%;
+    width: 71%;
 }
-.description-plan .soluzioni{
-    /* font-weight: normal; */
+.description-plan .soluzioni {
+    margin-bottom: 4rem;
 }
 .find-partner .img{
     /* background-image: url(../img/dropbox-risorse/img/partner.png);
@@ -362,7 +394,7 @@ p a{
     /* background-repeat: no-repeat; */ 
 }
 .find-partner img{
-    width: 100%;
+    width: 112%;
 }
 .find-partner .text{
     width: 30%;
@@ -372,6 +404,16 @@ p a{
 .find-partner p{
     margin-top: 2rem;
 }
+.find-partner button{
+    margin-top: 98px;
+}
+.price{
+    font-weight: bold;
+}
+
+
+
+
 /* _________DROPBOX-BUSINESS__________ */
 .dropbox-business{
     /* background-color: lightblue; */
@@ -389,8 +431,7 @@ p a{
     padding-top: 8rem;
 }
 .dropbox-business a{
-    padding: 0rem 4rem;
-    /* font-size: 3rem; */
+  color:rgba(0, 97, 255, 1); ;
 }
 .dropbox-business img{
     width: 100%;
@@ -406,6 +447,11 @@ p a{
     margin-top: 4rem;
     /* font-size: -webkit-xxx-large; */
 }
+.dropbox-business .container-100{
+    width: 100%;
+    margin-top: 3.5rem;
+    margin-bottom: 10.5rem;
+}
 .dropbox-business p{
     margin-top: 2.5rem;
 }
@@ -415,8 +461,9 @@ p a{
 }
 /* _SPONSOR AGENCY______ */
 .sponsor-agency h2{
-    /* font-size: 7rem; */
+    font-size: 5rem;
     padding: 10rem 3rem;
+    color: rgba(97, 9, 44, 1);
 }
 .sponsor-agency .container-70{
     display: flex;
@@ -432,17 +479,17 @@ p a{
     margin-top: 4rem;
 }
 .bg-lightseagreen .autore{
-    ma
+    
 }
 
 /* ____SEZIONE QUESTIONS-ANSWEARS_____________ */
 
 .specific-q{
-        align-items: center;
-        justify-content: space-between;
-        padding: 3rem 0rem;
-        border-top: 2px blue solid;
-        margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0rem;
+    border-top: 2px black solid;
+    margin-top: 2rem;
 }
 
 .hidden{
@@ -452,6 +499,8 @@ p a{
 }
 .hidden:hover{
     background-color: blueviolet;
+    visibility: visible;
+    height: 5rem;
 } 
 
 
@@ -462,7 +511,35 @@ p a{
 
 /* ____FOOTER____________________ */
 
-
+footer .container-70{
+    padding-top: 9rem
+}
+footer .col-5 {
+    width: calc(100%/5);
+    text-align: start;
+}
+footer span{
+    font-weight: bold;
+    font-size: 2.5rem;
+    /* padding-bottom: 29px; */
+    line-height: 6rem;
+}
+footer li{
+    text-indent: -2px;
+}
+footer .breakline{
+    width: calc(100vw/10);
+}
+footer .icon{
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+.icon span{
+    padding: 2rem;
+    font-size: 60px;
+}
 
 
 
