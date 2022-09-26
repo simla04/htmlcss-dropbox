@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 1.5rem
+    font-size: 1.8rem;
 }
 body{
     font-family: sans-serif;
@@ -123,6 +123,10 @@ section{
     margin-top: 7rem;
     width: 100%;
 }
+h2{
+    font-size: 3rem;
+}
+
 /* ____________CLASS TAG______________________ */
 .container-100{
     width: 100%;
@@ -184,7 +188,11 @@ header a{
 }
 .right-menu button{
     margin-right: 15px;
+   
 }
+
+
+
 .jumbo {
     margin-top: 0rem;
 }
@@ -194,11 +202,17 @@ header a{
     display: inline-block;
 } */
 /* ____selettori___________________ */
+.btn-w a{
+    color:white;
+    text-decoration: none;
+}
+.btn-100{
+    width: 100%;
+}
 .btn{
-    padding: 20px 0px;
+    padding: 20px 10px;
     /* font-size: 1.5rem; */
     border-radius: 5px;
-    width: 100%;
     border: none;
 }
 .btn-blue{
@@ -208,11 +222,16 @@ header a{
 /* ______SECTION: JUMBO______________________________ */
 .jumbo{
     padding-top: 5rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .jumbo h1{
     font-size: 7rem;
     margin-top: 5rem;
+}
+.jumbo .img-jumbo{
+    width: 60%;
+    /* height: calc(50%wv); */
+    height: 0.5rem;
 }
 .text-business{
     width: 40%;
@@ -222,8 +241,11 @@ header a{
     width: 50%;
 }
 .text-business p, .text-business button{
-    margin-bottom: 113px;
+    margin-bottom: 236px
     /* font-size: 1.5rem; */
+}
+.text-business i{
+    
 }
 .img-jumbo>img{
     width: 100%;
@@ -252,7 +274,8 @@ header a{
     /* font-size: 2.4rem; */
 }
 .description-plan button{
-    margin-top: 2rem;  
+    margin-top: 8rem;
+    margin-bottom: 2rem; 
 }
 .select{
     /* font-size: 1.4rem; */
@@ -299,8 +322,16 @@ ul li{
 .tick-point{
     /* font-size: 1.5rem;
     font-weight: bold; */
-    background: red;
+    /* background: red; */
 }
+.tick-point a{
+    background-color: navaj;
+}
+p a{
+    background-color: white;
+    color: rgba(0, 97, 255, 1);
+}
+
 .users-type .col-3{
     border: 1px rgba(228, 228, 229, 1) solid;
     flex-basis: 31%;
@@ -353,7 +384,9 @@ ul li{
 }
 .dropbox-business h2{
     /* font-size: 7rem; */
-    padding: 10rem 3rem;
+    /* padding: 10rem 3rem; */
+    padding-bottom: 4rem;
+    padding-top: 8rem;
 }
 .dropbox-business a{
     padding: 0rem 4rem;
@@ -377,16 +410,53 @@ ul li{
     margin-top: 2.5rem;
 }
 .dropbox-business h2{
-    padding-bottom: 23rem;
-    padding-top: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 8rem;
 }
 /* _SPONSOR AGENCY______ */
 .sponsor-agency h2{
     /* font-size: 7rem; */
     padding: 10rem 3rem;
 }
+.sponsor-agency .container-70{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+}
+.bg-lightseagreen{
+    overflow: auto;
+    padding: 7rem;
+}
+.bg-lightseagreen p{
+    margin-top: 4rem;
+}
+.bg-lightseagreen .autore{
+    ma
+}
 
 /* ____SEZIONE QUESTIONS-ANSWEARS_____________ */
+
+.specific-q{
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 0rem;
+        border-top: 2px blue solid;
+        margin-top: 2rem;
+}
+
+.hidden{
+    visibility: hidden;
+    margin-top: 2rem;
+    height: 0;
+}
+.hidden:hover{
+    background-color: blueviolet;
+} 
+
+
+
+
 
 
 
@@ -412,3 +482,7 @@ ul li{
     font-weight: 900;
     margin-right: 10px;
 }
+.fa-arrow-down:before {
+    content: "\f063";
+    font-size: 4rem;
+    margin-left: 2rem;
