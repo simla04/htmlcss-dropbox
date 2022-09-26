@@ -1,4 +1,4 @@
-/* ____________________RESET RULES __________*/
+/* ______________________________RESET RULES __________*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,17 +9,16 @@ body{
     font-family: sans-serif;
 
 }
-/* ___________DEBUG RULES_________________ */
+/* ____________________________DEBUG RULES_________________ */
 header{
     /* background-color: fuchsia; */
-    margin: 2rem;
+
 }
 .nav{
-    background-color: rosybrown;
-    width: 100%;
+    /* background-color: rosybrown; */
 }
 
-/* ______RESET STYLE RULES___________________ */
+/* _____________RESET STYLE RULES___________________ */
 
 /* .bg-lightgray{
     background-color: lightgray;
@@ -44,7 +43,7 @@ background-color: lightseagreen;
     color: white;
 }
 
-/* _________PROPERTY CLASS___________________ */
+/* ____________________________PROPERTY CLASS___________________ */
 .flex{
     display: flex;
 }
@@ -69,7 +68,7 @@ background-color: lightseagreen;
 .p-absolute{
     position: absolute;
 }
-/* _____FORM________________________________ */
+/* ________________________________FORM________________________________ */
 .square{
     width:30%;
     height: calc(100vw/3);
@@ -88,7 +87,7 @@ background-color: lightseagreen;
     transform: translate(-50%, -50%);
     filter: invert();
 }
-/* _______background color________________ */
+/* ________________________BACKGROUND COLOR________________ */
 .designit{
     background-color:rgba(162, 211, 155, 1) ;
 }
@@ -114,10 +113,7 @@ background-color: lightseagreen;
     background-color:rgba(255, 216, 48, 1);
 }
 
-/* __________TAG__________________________ */
-nav{
-   
-}
+/* ____________GENERAL TAG__________________________ */
 h1{
     /* font-size: 7rem; */
     margin-top: 5rem;
@@ -127,7 +123,7 @@ section{
     margin-top: 7rem;
     width: 100%;
 }
-/* _________CLASS TAG______________________ */
+/* ____________CLASS TAG______________________ */
 .container-100{
     width: 100%;
 }
@@ -157,9 +153,15 @@ section{
     width: 100%;
 }
 
+/* _____HEADER: NAV->: LEFT-MENU E RIGHT-MENU________________________ */
+header{
+    /* margin: 2rem; */
 
-.jumbo{
-    padding-top: 5rem;
+}
+.nav{
+    background-color: rosybrown;
+    width: 100%;
+   
 }
 .left-menu img{
     width: 10rem;
@@ -167,18 +169,60 @@ section{
 }
 .right-menu{
 }
-.left-menu span, .right-menu span{
-    padding: 18px;
-    line-height: 63px;
-    display: inline-block;
+
+nav li{
+    list-style: none;
+    margin: 0rem 2rem;
+    flex-direction: row;
+    
 }
+nav .flex{
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    border-bottom: 13px blue dashed;
+    padding: 5rem 1rem;
+}
+
 .right-menu button{
     margin-right: 15px;
 }
+.jumbo {
+    margin-top: 0rem;
+}
+/* .left-menu span, .right-menu span{
+    padding: 18px;
+    line-height: 63px;
+    display: inline-block;
+} */
+
+/* ______SECTION: JUMBO________________________________________ */
+.jumbo{
+    padding-top: 5rem;
+}
+.jumbo h1{
+    font-size: 7rem;
+    margin-top: 5rem;
+}
+
+/* ______MAIN________________________________________ */
+/* ______________________________________________ */
+/* ______________________________________________ */
+/* ______________________________________________ */
+/* ______________________________________________ */
+
+/* ______________________________________________ */
+
+
+
+.
 .btn{
-    padding: 20px 65px;
+    padding: 20px 0px;
     /* font-size: 1.5rem; */
-    border-radius: 30px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
 }
 .btn-blue{
     background-color: rgba(0, 97, 255, 1);
@@ -231,8 +275,9 @@ section{
 .plan-type{
     text-align: center;
     /* font-size: 1.5rem; */
-    border: black 1px solid;
+    /* border: black 1px solid; */
     padding: 20px 40px;
+    border: 1px rgba(228, 228, 229, 1) solid;
 }
 .users-type{
     margin-top: 5rem;
@@ -244,9 +289,9 @@ ul li{
     list-style: none;
     /* line-height: 5rem; */
     /* font-size: 1.5rem; */
-    text-indent: -20px;
+    text-indent: -29px;
     padding-left: 1.2;
-    margin-top: 2rem ;
+    margin-top: 2rem;
 }
 
 .description-plan{
@@ -255,8 +300,7 @@ ul li{
 }
 .description-plan h3{
     margin-top: 2rem;
-    /* font-size: 2rem;
-    font-weight: bold; */
+    font-size: 2.4rem;
 }
 .description-plan p{
     /* font-size: 1.4rem;
@@ -272,7 +316,7 @@ ul li{
     background: red;
 }
 .users-type .col-3{
-    border: 2px #252020 solid;
+    border: 1px rgba(228, 228, 229, 1) solid;
     flex-basis: 31%;
     padding-bottom: 5rem;
 }
@@ -311,16 +355,13 @@ ul li{
 .find-partner p{
     margin-top: 2rem;
 }
-/* _BUSINESS DROPBOX__________ */
 
+/* ____________________BUSINESS DROPBOX__________ */
 .dropbox-business{
     /* background-color: lightblue; */
 }
 .dropbox-business .container-70{
     /* background-color: lightgreen; */
-}
-.dropbox-business div{ 
-   
 } 
 .dropbox-business .text{
     /* background-color: pink; */
@@ -360,4 +401,16 @@ ul li{
 .sponsor-agency h2{
     /* font-size: 7rem; */
     padding: 10rem 3rem;
+}
+
+
+
+.fa-check:before {
+    content: "\f00c";
+    color: rgba(0, 97, 255, 1);
+    margin-right: 0.4rem;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    margin-right: 10px;
 }
